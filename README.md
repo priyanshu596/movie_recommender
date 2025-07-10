@@ -9,16 +9,19 @@ to find the most relevant matches. A simple web interface is built using Flask.
 
 --------------------------------------------------
 
+
 PROJECT STRUCTURE:
 ------------------
+
 movie_recommender/
-  ├─ movies.csv              # Movie metadata (MovieLens)
-  ├─ tags.csv                # User-generated tags (MovieLens)
-  ├─ recommender_core.py     # Core logic for recommendation
-  ├─ app.py                  # Flask web application
-  ├─ templates/
-  │   └─ index.html          # HTML user interface
-  └─ README.txt              # This file
+  movies.csv              - Movie metadata (MovieLens)
+  tags.csv                - User-generated tags (MovieLens)
+  recommender_core.py     - Core logic for recommendation
+  app.py                  - Flask web application
+  templates/
+    index.html            - HTML page for user interface
+  README.txt              - This file
+
 
 
 
