@@ -1,6 +1,5 @@
-==================================================
-           MOVIE RECOMMENDER SYSTEM (Flask)
-==================================================
+MOVIE RECOMMENDER SYSTEM (Flask)
+
 
 DESCRIPTION:
 ------------
