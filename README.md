@@ -12,14 +12,15 @@ to find the most relevant matches. A simple web interface is built using Flask.
 PROJECT STRUCTURE:
 ------------------
 movie_recommender/
-│
-├── movies.csv                <- Movie metadata (MovieLens)
-├── tags.csv                  <- User-generated tags (MovieLens)
-├── recommender_core.py       <- Core logic for recommendation
-├── app.py                    <- Flask web application
-├── templates/
-│   └── index.html            <- HTML page for user interface
-└── README.txt                <- This file
+|
+|-- movies.csv              # Movie metadata (MovieLens)
+|-- tags.csv                # User-generated tags (MovieLens)
+|-- recommender_core.py     # Core logic for recommendation
+|-- app.py                  # Flask web application
+|-- templates/
+|   |-- index.html          # HTML page for user interface
+|-- README.txt              # This file
+
 
 --------------------------------------------------
 
@@ -57,13 +58,16 @@ HOW TO RUN:
 
 USAGE EXAMPLE:
 --------------
-Input  : Toy Story
-Output :
+Input:
+    Toy Story
+
+Output:
     - Toy Story 2
     - A Bug's Life
     - Monsters, Inc.
     - Shrek
     - Finding Nemo
+
 
 --------------------------------------------------
 
